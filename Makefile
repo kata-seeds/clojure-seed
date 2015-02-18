@@ -1,12 +1,11 @@
 all: dependencies test
-SHELL := /bin/bash
-PATH := $(PATH):.
+LEIN = $(shell which lein || echo './lein')
 
 test:
-	lein test
+	$(LEIN) test
 
 dependencies:
-	which lein || (curl -O 'https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein' && chmod a+x ./lein && ./lein)
-	lein deps
+	which lein || test -s lein || (curl -O 'https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein' && chmod a+x $(LEIN) && $(LEIN))
+	$(LEIN) deps
 
 .PHONY: all dependencies test
