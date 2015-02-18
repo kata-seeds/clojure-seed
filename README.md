@@ -1,4 +1,4 @@
-# [Kata Seeds](https://github.com/kata-seeds): Clojure
+# [Kata Seeds](http://kata-seeds.github.io): Clojure
 [![Build Status](https://travis-ci.org/kata-seeds/clojure-seed.svg?branch=master)](https://travis-ci.org/kata-seeds/clojure-seed)
 
 ## Getting Started
