@@ -5,7 +5,7 @@ test:
 	$(LEIN) test
 
 dependencies:
-	which lein || test -s lein || (curl -O 'https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein' && chmod a+x $(LEIN) && $(LEIN))
+	which lein || test -s lein || (curl -O 'https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein' && chmod a+x $(LEIN))
 	$(LEIN) deps
 
 .PHONY: all dependencies test
