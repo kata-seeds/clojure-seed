@@ -2,6 +2,6 @@
   (:require [clojure.test :refer :all]
             [clojure-seed.core :refer :all]))
 
-(deftest testing-greeting
+(deftest greeting
   (testing "Can say hello to someone"
     (is (= "Hello, sir" (hello "sir")))))
