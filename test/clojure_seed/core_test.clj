@@ -4,4 +4,4 @@
 
 (deftest greeting
   (testing "Can say hello to someone"
-    (is (= "Hello, sir" (hello "sir")))))
+    (is (= "Hello, friend" (hello "friend")))))
