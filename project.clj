@@ -3,4 +3,4 @@
   :url "TODO"
   :license {:name "TODO: Choose a license"
             :url "http://choosealicense.com/"}
-  :dependencies [[org.clojure/clojure "1.6.0"]])
+  :dependencies [[org.clojure/clojure "1.8.0"]])
